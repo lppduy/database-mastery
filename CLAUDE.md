@@ -29,6 +29,7 @@ Database Mastery study session, PostgreSQL + Docker, scenario-driven learning.
 
 ## Notes
 - Always include the Docker setup block (image version, run command, connect command) in each scenario file
+- After each scenario is fully understood: create the `.md` file, update progress in CLAUDE.md and README.md, commit and push — all together, without waiting for user to ask
 
 ## Progress
 - [x] M1-01 Full Table Scan
