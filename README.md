@@ -73,7 +73,7 @@ Distilled theory after production depth is solid — ACID, CAP, isolation levels
 
 | Module | Status |
 |--------|--------|
-| 01 Storage & I/O Pain | 2/4 |
+| 01 Storage & I/O Pain | 3/4 |
 | 02 Transactions & Concurrency | - |
 | 03 Query Internals | - |
 | 04 Schema & Application Patterns | - |

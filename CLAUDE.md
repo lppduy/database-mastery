@@ -34,5 +34,5 @@ Database Mastery study session, PostgreSQL + Docker, scenario-driven learning.
 ## Progress
 - [x] M1-01 Full Table Scan
 - [x] M1-02 Write Amplification (index + high write load)
-- [ ] M1-03 Composite Index Wrong Order
+- [x] M1-03 Composite Index Wrong Order
 - [ ] M1-04 Write Amplification Cost
