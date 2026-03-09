@@ -63,7 +63,51 @@ Scenario-driven. Hit a real production problem → understand why → learn the 
 | 02 | Read traffic spikes → add read replica | Replication lag, leader/follower |
 | 03 | Single table becomes hotspot | Sharding strategy, hotspot problem |
 
-## Module 6: Interview Prep
+## Module 6: ERD Design & SQL Problem Solving
+
+Real-world schema design + SQL query challenges. Goal: solve almost any SQL problem confidently.
+
+### Part A: ERD Design
+
+| # | Scenario | Concepts |
+|---|----------|----------|
+| 01 | Design a schema for an e-commerce system | ERD, normalization, 1NF/2NF/3NF, relationships |
+| 02 | Design a schema for a chat system | Many-to-many, message threading, self-referencing |
+| 03 | Design a schema for a ride-sharing app | Geospatial, status transitions, polymorphic relations |
+| 04 | Design a schema for a booking system | Conflict detection, time ranges, seat locking |
+
+### Part B: SQL Fundamentals
+
+| # | Topic | Concepts |
+|---|-------|----------|
+| 05 | JOINs deep dive | INNER, LEFT, RIGHT, FULL, CROSS, SELF join — when to use each |
+| 06 | Aggregation & grouping | GROUP BY, HAVING, COUNT/SUM/AVG/MIN/MAX, NULL traps |
+| 07 | Subqueries & CTEs | Correlated subquery, WITH, WITH RECURSIVE |
+| 08 | Set operations | UNION, UNION ALL, INTERSECT, EXCEPT |
+| 09 | NULL handling | IS NULL, COALESCE, NULLIF, NULL in aggregation |
+
+### Part C: Advanced SQL
+
+| # | Topic | Concepts |
+|---|-------|----------|
+| 10 | Window functions | ROW_NUMBER, RANK, DENSE_RANK, NTILE |
+| 11 | Window frames | LEAD, LAG, FIRST_VALUE, LAST_VALUE, OVER(PARTITION BY ORDER BY) |
+| 12 | Running totals & moving averages | SUM OVER, AVG OVER, cumulative patterns |
+| 13 | Gaps and islands | Find missing sequences, consecutive groups |
+| 14 | Top-N per group | Rank per category, deduplicate, latest per user |
+| 15 | Pivot / unpivot | CASE WHEN aggregation, crosstab |
+
+### Part D: Query Optimization
+
+| # | Topic | Concepts |
+|---|-------|----------|
+| 16 | Rewriting slow queries | Subquery vs JOIN, EXISTS vs IN, avoiding SELECT * |
+| 17 | Index-friendly queries | Avoid function on column, SARGable predicates |
+| 18 | EXPLAIN ANALYZE in depth | Seq scan vs index scan, cost estimation, row estimates |
+| 19 | Pagination at scale | OFFSET trap, cursor-based pagination |
+| 20 | Common interview problems | LeetCode-style SQL: nth highest, duplicates, consecutive rows |
+
+## Module 7: Interview Prep
 
 Distilled theory after production depth is solid — ACID, CAP, isolation levels, index rules, common questions answered with production context.
 
@@ -78,4 +122,5 @@ Distilled theory after production depth is solid — ACID, CAP, isolation levels
 | 03 Query Internals | - |
 | 04 Schema & Application Patterns | - |
 | 05 Scaling | - |
-| 06 Interview Prep | - |
+| 06 ERD Design & SQL Problem Solving | - |
+| 07 Interview Prep | - |

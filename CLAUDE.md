@@ -36,3 +36,32 @@ Database Mastery study session, PostgreSQL + Docker, scenario-driven learning.
 - [x] M1-02 Write Amplification (index + high write load)
 - [x] M1-03 Composite Index Wrong Order
 - [x] M1-04 Unused Indexes + EXPLAIN vs EXPLAIN ANALYZE
+
+## Module 6: ERD Design & SQL Problem Solving
+### Part A: ERD Design
+- [ ] M6-01 E-commerce schema
+- [ ] M6-02 Chat system schema
+- [ ] M6-03 Ride-sharing schema
+- [ ] M6-04 Booking system schema
+
+### Part B: SQL Fundamentals
+- [ ] M6-05 JOINs deep dive
+- [ ] M6-06 Aggregation & grouping
+- [ ] M6-07 Subqueries & CTEs
+- [ ] M6-08 Set operations
+- [ ] M6-09 NULL handling
+
+### Part C: Advanced SQL
+- [ ] M6-10 Window functions (ROW_NUMBER, RANK, DENSE_RANK)
+- [ ] M6-11 Window frames (LEAD, LAG, FIRST/LAST_VALUE)
+- [ ] M6-12 Running totals & moving averages
+- [ ] M6-13 Gaps and islands
+- [ ] M6-14 Top-N per group
+- [ ] M6-15 Pivot / unpivot
+
+### Part D: Query Optimization
+- [ ] M6-16 Rewriting slow queries
+- [ ] M6-17 Index-friendly queries (SARGable)
+- [ ] M6-18 EXPLAIN ANALYZE in depth
+- [ ] M6-19 Pagination at scale
+- [ ] M6-20 Common interview problems (LeetCode-style SQL)
