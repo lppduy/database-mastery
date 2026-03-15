@@ -39,7 +39,7 @@ Database Mastery study session, PostgreSQL + Docker, scenario-driven learning.
 
 ## Module 6: ERD Design & SQL Problem Solving
 ### Part A: ERD Design
-- [ ] M6-01 E-commerce schema
+- [x] M6-01 E-commerce schema
 - [ ] M6-02 Chat system schema
 - [ ] M6-03 Ride-sharing schema
 - [ ] M6-04 Booking system schema

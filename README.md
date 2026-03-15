@@ -122,5 +122,5 @@ Distilled theory after production depth is solid — ACID, CAP, isolation levels
 | 03 Query Internals | - |
 | 04 Schema & Application Patterns | - |
 | 05 Scaling | - |
-| 06 ERD Design & SQL Problem Solving | - |
+| 06 ERD Design & SQL Problem Solving | 1/20 in progress |
 | 07 Interview Prep | - |
